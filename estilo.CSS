@@ -100,8 +100,8 @@ main{
 
 .content-header{
     border-bottom: solid 2px #ccc;
-	padding: 10px;
-	background: #eee;
+    padding: 10px;
+    background: #eee;
 }
 
 .content-header h2{
@@ -114,7 +114,7 @@ footer{
     background-color: #6b6c68;
     text-align: center;
     height: 50px;
-	font-size: 14px;
-	text-shadow: 2px 2px 2px black;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
     line-height: 50px;
 }
