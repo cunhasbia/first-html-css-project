@@ -1,0 +1,120 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 0.1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.hero-content p{
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    margin-top: auto;
+}
+
+.hero nav ul{
+    text-align: left; 
+    margin: 20px 0 0 115px;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-left: 5px;
+}
+
+.hero nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 12px;    
+}
+
+.content-header{
+    border-bottom: solid 2px #ccc;
+	padding: 10px;
+	background: #eee;
+}
+
+.content-header h2{
+    margin:0;
+}
+
+footer{
+    margin: auto;
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    height: 50px;
+	font-size: 14px;
+	text-shadow: 2px 2px 2px black;
+    line-height: 50px;
+}
